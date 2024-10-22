@@ -19,7 +19,7 @@ function filterDivisible(numbers, divisor) {
         }
     }
 
-    return diversibles;
+    return divisibles;
 }
 
 module.exports = filterDivisible;
