@@ -23,10 +23,11 @@ function averageAgeOfAdults(users) {
   for (const user of users) {
     if (user.age >= 18) {
       adultAges += user.age;
+      adultCounter++;
     }
   }
 
-  avarage = parseInt(adultAges/adultCounter);
+  avarage = parseInt(adultAges / adultCounter);
 
   return avarage;
 }
